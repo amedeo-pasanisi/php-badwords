@@ -4,4 +4,4 @@ $censura = $_GET["censura"];
 $paragrafoCensurato = str_replace($censura, "***", $paragrafo);
 ?>
 
-<p><?php echo $paragrafoCensurato, strlen($paragrafo); ?> caratteri</p>
+<p style="position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); text-align:center;"><?php echo $paragrafoCensurato, strlen($paragrafo); ?> caratteri</p>
